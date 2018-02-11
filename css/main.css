@@ -26,6 +26,13 @@ footer {
 	text-align: center;
 }
 
+section > h2 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+
+}
+
 aside > section h2 {
 	text-align: center;
 	text-transform: uppercase;
@@ -38,5 +45,12 @@ aside > section h2:first-child {
 
 .hero {
 	background-color: lightblue;
+}
+
+.hero h2 {
+	color: white;
+	border-top: 0.2em solid white;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
 }
 
