@@ -29,5 +29,14 @@ footer {
 aside > section h2 {
 	text-align: center;
 	text-transform: uppercase;
+	letter-spacing: 0.2em;
 } 
+
+aside > section h2:first-child {
+	border-bottom: 0.05em solid white;
+}
+
+.hero {
+	background-color: lightblue;
+}
 
