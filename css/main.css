@@ -12,3 +12,22 @@ footer {
 	color: white;
 }
 
+#profile-picture {
+	background-color: yellow;
+}
+
+#profile-picture img {
+	border-radius: 50%;
+}
+
+#profile-picture figcaption {
+	background-color: darkgray;
+	display: block;
+	text-align: center;
+}
+
+aside > section h3 {
+	text-align: center;
+	text-transform: uppercase;
+} 
+
