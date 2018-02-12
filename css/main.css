@@ -150,6 +150,7 @@ aside > section dl {
 .about-me p {
 	background-color: #545454;
 	font-size: 1.5em;
+	padding: 1em;
 }
 
 #languages {
@@ -177,11 +178,11 @@ aside > section dl {
 div.scale {
 	height: 1em;
 	display: block;
-	background-color: yellow;
+	background-color: #B6D461;
 	
 }
-div.scale::before {
-	content: "<div class=\"qty\"></div>";
+div.scale::after {
+	/*content: <div class="qty"></div>;*/
 }
 div.qty {
 	width: 30%;
