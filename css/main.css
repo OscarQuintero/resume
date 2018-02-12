@@ -47,6 +47,15 @@ aside > section h2:first-child {
 	background-color: lightblue;
 }
 
+.hero h1 {
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	text-align: center;
+}
+
 .hero h2 {
 	color: white;
 	border-top: 0.2em solid white;
@@ -54,3 +63,6 @@ aside > section h2:first-child {
 	letter-spacing: 0.3em;
 }
 
+.about-me {
+	background-color: lightgreen;
+}
