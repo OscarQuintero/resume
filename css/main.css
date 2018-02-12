@@ -22,17 +22,46 @@ footer {
 }
 
 #profile-picture {
-	background-color: darkgrey;
+	background-color: transparent;
+	padding: 0em;
 }
 
 #profile-picture img {
 	border-radius: 50%;
+	width: 100%;
+	margin: auto;
 }
 
 #profile-picture figcaption {
-	background-color: darkgray;
+	background-color: transparent;
 	display: block;
 	text-align: center;
+	font-size: 1.2em;
+	padding: 0.8em 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+dl {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+dt {
+	flex-basis: 30%;
+	font-weight: bold;
+}
+
+
+dd {
+	flex-basis: 60%;
+}
+
+aside > section {
+	margin: 4em 0;
 }
 
 section > h2 {
@@ -46,14 +75,21 @@ aside > section h2 {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
+	font-size: 1.2em;
 } 
 
 aside > section h2:first-child {
 	border-bottom: 0.05em solid white;
 }
 
+aside > section ul,
+aside > section dl {
+	margin: 0 2em;
+}
+
 .hero {
 	background-color: lightblue;
+	padding: 4em 0;
 }
 
 .hero h1 {
@@ -63,6 +99,7 @@ aside > section h2:first-child {
 	text-transform: uppercase;
 	letter-spacing: 0.5em;
 	text-align: center;
+	/*margin: 3em 0em;*/
 }
 
 .hero h2 {
@@ -74,4 +111,18 @@ aside > section h2:first-child {
 
 .about-me {
 	background-color: lightgreen;
+}
+
+#languages {
+	display: flex;
+	
+	flex-wrap: wrap;
+
+}
+#languages h2 {
+	flex-basis: 100%;
+	background-color: red;
+}
+.language {
+	flex-basis: 20%;
 }
