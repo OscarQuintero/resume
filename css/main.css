@@ -56,6 +56,12 @@ dl {
 	flex-wrap: wrap;
 }
 
+dl a,
+dl a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
 dt {
 	flex-basis: 30%;
 	font-weight: bold;
@@ -139,11 +145,11 @@ aside > section dl {
 	flex-basis: 40%;
 	
 	margin: 2em 0;
+	color: #545454;
 }
 .language h3 {
 	color: #69853D;
 }
 .language i {
-	font-size: 3em;
-	color: green;
+
 }
