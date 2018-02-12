@@ -54,6 +54,7 @@ dl {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	
 }
 
 dl a,
@@ -65,15 +66,20 @@ dl a:visited {
 dt {
 	flex-basis: 30%;
 	font-weight: bold;
+	margin: 0.5em 0;
+	
 }
 
 
 dd {
-	flex-basis: 60%;
+	flex-basis: 50%;
+	margin: 0.5em 0;
+	
 }
 
 aside > section {
 	margin: 4em 0;
+	padding: 0;
 }
 
 section > h2 {
@@ -98,7 +104,7 @@ aside > section h2:first-child {
 
 aside > section ul,
 aside > section dl {
-	margin: 0 2em;
+	margin: 0 1em;
 }
 
 .hero {
@@ -121,6 +127,8 @@ aside > section dl {
 	border-top: 0.2em solid white;
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
+	margin: 0 8em;
+	padding: 1em 0;
 }
 
 .about-me {
