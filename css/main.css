@@ -53,6 +53,14 @@ ul {
 	list-style-type: none;
 }
 
+main ul {
+	list-style-type: disc; 
+}
+main ul li {
+	margin: 1em 0;
+	font-size: 1.6em: 
+}
+
 dl {
 	display: flex;
 	flex-direction: row;
@@ -137,9 +145,11 @@ aside > section dl {
 .about-me {
 	
 	color: white;
+
 }
 .about-me p {
 	background-color: #545454;
+	font-size: 1.5em;
 }
 
 #languages {
@@ -163,4 +173,17 @@ aside > section dl {
 }
 .language i {
 
+}
+div.scale {
+	height: 1em;
+	display: block;
+	background-color: yellow;
+	
+}
+div.scale::before {
+	content: "<div class=\"qty\"></div>";
+}
+div.qty {
+	width: 30%;
+	background-color: red;
 }
