@@ -1,3 +1,5 @@
+
+
 #main-container {
 	display: flex;
 	flex-direction: row;
@@ -6,7 +8,7 @@
 
 aside {
 	flex-basis: 30%;
-	background-color: grey;	
+	background-color: #2E2E2E;	
 	color: white;
 
 }
@@ -69,6 +71,7 @@ aside > section {
 }
 
 section > h2 {
+	color: #2E2E2E;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
@@ -76,6 +79,7 @@ section > h2 {
 }
 
 aside > section h2 {
+	color: #E5E5E5;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
@@ -92,12 +96,12 @@ aside > section dl {
 }
 
 .hero {
-	background-color: lightblue;
+	background-color: #B6D461;
 	padding: 4em 0;
 }
 
 .hero h1 {
-	color: white;
+	color: #2E2E2E;
 	font-size: 2em;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -114,7 +118,11 @@ aside > section dl {
 }
 
 .about-me {
-	background-color: lightgreen;
+	
+	color: white;
+}
+.about-me p {
+	background-color: #545454;
 }
 
 #languages {
@@ -133,5 +141,5 @@ aside > section dl {
 	margin: 2em 0;
 }
 .language h3 {
-	color: rgb(10,10,10);
+	color: #69853D;
 }
