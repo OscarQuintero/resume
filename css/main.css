@@ -16,6 +16,10 @@ main {
 	color: darkgray;
 }
 
+main h3 {
+	font-weight: bold;
+}
+
 footer {
 	background-color: black;
 	color: white;
@@ -68,7 +72,7 @@ section > h2 {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
-
+	font-weight: bold;
 }
 
 aside > section h2 {
@@ -115,14 +119,19 @@ aside > section dl {
 
 #languages {
 	display: flex;
-	
+	justify-content: space-between;	
 	flex-wrap: wrap;
-
+	
 }
 #languages h2 {
 	flex-basis: 100%;
-	background-color: red;
+	
 }
 .language {
-	flex-basis: 20%;
+	flex-basis: 40%;
+	
+	margin: 2em 0;
+}
+.language h3 {
+	color: rgb(10,10,10);
 }
