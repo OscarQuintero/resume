@@ -1,8 +1,17 @@
+#main-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
 aside {
+	flex-basis: 30%;
 	background-color: grey;	
 	color: white;
+
 }
 main {
+	flex-basis: 60%;
 	background-color: white;
 	color: darkgray;
 }
@@ -13,7 +22,7 @@ footer {
 }
 
 #profile-picture {
-	background-color: yellow;
+	background-color: darkgrey;
 }
 
 #profile-picture img {
