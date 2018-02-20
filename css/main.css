@@ -197,5 +197,9 @@ div.qty {
 	main,
 	aside {
 		flex-basis: 100%;
+		width: 100%;
+	}
+	.hero h2 {
+		margin: auto;
 	}
 }
