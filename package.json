@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "OScar's resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarQuintero/resume.git"
+  },
+  "keywords": [
+    "oscars-resume"
+  ],
+  "author": "Oscar Quintero <oscar24quintero@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OscarQuintero/resume/issues"
+  },
+  "homepage": "https://github.com/OscarQuintero/resume#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
