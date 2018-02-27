@@ -1,2 +1,3 @@
 #Ignore files than begin for ._
 **/._*
+node_modules/*

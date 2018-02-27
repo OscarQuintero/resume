@@ -21,5 +21,10 @@
   "homepage": "https://github.com/OscarQuintero/resume#readme",
   "dependencies": {
     "font-awesome": "^4.7.0"
+    
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "gulp": "^3.9.1"
   }
 }
